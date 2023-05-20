@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+#offers button .btn {
+  font-size: 18px;
+  font-weight: 500px;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+/* font */
+
+.barlow {
+  font-family: "Barlow", sans-serif;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.text-super-besar {
+  font-size: 60px;
+}
+
+.text-besar {
+  font-size: 50px;
+}
+
+.text-sedang {
+  font-size: 30px;
+}
+
+.text-normal {
+  font-size: 18px;
+}
+
+.text-kecil {
+  font-size: 14px;
+}
+/* font end */
+/* warna */
+.text-hitam {
+  color: black;
+}
+
+.text-abu {
+  color: #b7b7b7;
+}
+
+.text-oren {
+  color: #ffac77;
+}
+
+.text-biru {
+  color: #71a8ff;
+}
+/* warna end */
+
+/* nav */
+.scroll-nav-active {
+  background: #1f1f1f;
+}
+
+.nav-link {
+  font-size: 18;
+  font-weight: 500;
+  margin: 0 10px;
+  color: #fff;
+}
+
+.contact-us .btn {
+  font-size: 18px;
+  font-weight: 500px;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+.contact-us .btn-outline-warning {
+  border: 2px solid #f9b88e;
+}
+
+#hero .btn-warning {
+  background: #f9b88e;
+  border-radius: 30px;
+}
+
+#hero {
+  background-image: url("images/bg-mekah.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 1100px;
+  padding-top: 100px;
+}
+
+/* services */
+
+#services {
+  background-image: url("images/bg-services.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* watch */
+
+#watch {
+  background-image: linear-gradient(to right, #cccac7 0%, #f8f6f2 50%);
+}
